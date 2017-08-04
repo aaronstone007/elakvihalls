@@ -44,6 +44,21 @@ body {
   height: 100%;
 }
 
+/* Uncomment if image on main carousel should be responsive
+.sliderone .slides {
+   background-color: transparent;
+   margin: 0;
+   height: 400px;
+}
+
+.sliderone .slides li img {
+   height: 100%;
+   width: 100%;
+   background-position: center;
+   background-size:100% 100%;
+   background-repeat: no-repeat;
+}*/
+
 .slidertwo .slides li img{
   height: 200px;
   width: 200px;
