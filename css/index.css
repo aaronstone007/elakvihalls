@@ -12,6 +12,11 @@ h1 {
     font-size: 50px;
 }
 
+.nav-wrapper .brand-logo {
+    height: 64px;
+    width: 270px;
+}
+
 ul li {
     font-size: 16px;
 }
