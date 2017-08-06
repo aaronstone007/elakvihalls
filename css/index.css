@@ -1,10 +1,5 @@
-.brand-logo img {
-  float: left;
-}
-.brand-logo {
-  position: absolute;
-  top: 5;
-  clear: both;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
 nav ul li a:hover {
@@ -12,6 +7,10 @@ nav ul li a:hover {
    background-color: transparent;
 }
 
+h1 {
+    display: inline;
+    font-size: 50px;
+}
 
 ul li {
     font-size: 16px;
@@ -21,28 +20,17 @@ ul li {
     color: #546e7a;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-}
 .nav-wrapper{
-  position: absolute;
+  position: relative;
   top:2;
 }
-.jill{
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    top:7;
-    bottom: 0;
-    left: 0;
-    right: 0;
 
-    margin: auto;
+.brand-logo {
+  position: relative;
+  left: 20;
 }
 
-.slider{
-  height: 100%;
-}
+
 
 /* Uncomment if image on main carousel should be responsive
 .sliderone .slides {
@@ -65,7 +53,7 @@ body {
 }
 
 nav{
-  height: 85px;
+  height: 75px;
 }
 
 label{
